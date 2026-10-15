@@ -41,7 +41,6 @@ jobs:
 
       - name: Frontend lint
         working-directory: frontend
-        continue-on-error: true
         run: npm run lint
 
       - name: Frontend build
