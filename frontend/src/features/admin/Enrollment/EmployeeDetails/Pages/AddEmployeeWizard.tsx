@@ -183,7 +183,7 @@ type Step = (typeof STEPS)[number];
    connects the backend can find every spot without reading the whole file.
 ============================================================================ */
 
-const PREFIXES = ["Mr", "Ms", "Mrs", "Dr"]; // [WIRE: GET /enrollment/masterdata/prefixes]
+// const PREFIXES = ["Mr", "Ms", "Mrs", "Dr"]; // [WIRE: GET /enrollment/masterdata/prefixes]
 const TITLES = ["Ms.", "Ms", "Mr", "MRS", "Y", "MR", "MS", "Mrs", "Miss"]; // [WIRE: GET /enrollment/masterdata/titles]
 const GENDERS = ["Male", "Female", "Transgender"]; // [WIRE: GET /enrollment/masterdata/genders]
 const MARITAL_STATUS = ["Unmarried", "Married", "Divorced", "Widowed"]; // [WIRE: GET /enrollment/masterdata/marital-status]
